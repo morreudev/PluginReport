@@ -1,0 +1,36 @@
+name: DiscordReports
+version: 1.0
+main: com.morreudev.discord.reports.DiscordReports
+api-version: 1.8
+authors: Number
+description: Sistema de reports integrado com Discord
+commands:
+  report:
+    description: Abre o menu de reports
+    usage: /report
+    aliases: [reportar]
+  discordreports:
+    description: Comando de administração do plugin
+    usage: /discordreports
+    aliases: [dr]
+  v:
+    description: Alterna visibilidade do staff
+    usage: /v
+    permission: discordreports.view
+
+permissions:
+  discordreports.*:
+    description: Acesso a todos os comandos
+    children:
+      discordreports.use: true
+      discordreports.admin: true
+      discordreports.view: true
+  discordreports.use:
+    description: Permite usar o comando /report
+    default: true
+  discordreports.admin:
+    description: Permite configurar o plugin
+    default: op
+  discordreports.view:
+    description: Permite ver e verificar reports
+    default: op 

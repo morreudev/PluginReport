@@ -1,0 +1,16 @@
+com\seu\nome\discordreports\discord\DiscordWebhook.class
+com\seu\nome\discordreports\discord\DiscordBot.class
+com\seu\nome\discordreports\menus\DiscordConfigMenu.class
+com\seu\nome\discordreports\commands\ReportCommand.class
+com\seu\nome\discordreports\commands\ReportConfigCommand.class
+com\seu\nome\discordreports\menus\MenuManager.class
+com\seu\nome\discordreports\commands\VisibilityCommand.class
+com\seu\nome\discordreports\utils\HeadUtil.class
+com\seu\nome\discordreports\commands\ReportsCommand.class
+com\seu\nome\discordreports\config\ConfigManager.class
+com\seu\nome\discordreports\models\Report.class
+com\seu\nome\discordreports\menus\ReportMenu.class
+com\seu\nome\discordreports\listeners\MenuListener.class
+com\seu\nome\discordreports\utils\ItemBuilder.class
+com\seu\nome\discordreports\managers\ReportManager.class
+com\seu\nome\discordreports\DiscordReports.class

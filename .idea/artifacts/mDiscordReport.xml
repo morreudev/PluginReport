@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mDiscordReport">
+    <output-path>$USER_HOME$/Pictures/HazeMC - Lobby/plugins</output-path>
+    <root id="archive" name="mDiscordReport.jar">
+      <element id="module-output" name="discord-reports" />
+    </root>
+  </artifact>
+</component>

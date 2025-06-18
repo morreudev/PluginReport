@@ -1,0 +1,43 @@
+prefix: "&8[&6Reports&8] "
+
+messages:
+  # Mensagens de erro
+  errors:
+    no-permission: "&cVocê não tem permissão para usar este comando!"
+    player-not-found: "&cJogador não encontrado!"
+    player-offline: "&cEste jogador está offline!"
+    self-report: "&cVocê não pode reportar a si mesmo!"
+    cooldown: "&cAguarde &e{time} &csegundos para reportar novamente!"
+    invalid-reason: "&cVocê precisa especificar um motivo!"
+    too-short-reason: "&cO motivo precisa ter pelo menos 3 caracteres!"
+    max-reports-reached: "&cO limite de reports pendentes foi atingido!"
+    no-console: "&cApenas jogadores podem usar este comando!"
+
+  # Mensagens de sucesso
+  success:
+    report-sent: "&aReport enviado com sucesso!"
+    report-received: "&aVocê recebeu um novo report!"
+    report-cleared: "&aReport removido com sucesso!"
+    all-reports-cleared: "&aTodos os reports foram removidos!"
+
+  # Mensagens do sistema
+  system:
+    no-reports: "&eNão há reports pendentes!"
+    report-notification: "&8[&6!&8] &eNovo report de &6{reporter} &econtra &6{reported}&e!"
+    report-list-header: "&8&m---------------------&r &6Reports Pendentes &8&m---------------------"
+    report-list-format: "&8- &eReport #&6{id} &8| &eReportado: &6{reported} &8| &eMotivo: &6{reason}"
+    report-list-footer: "&8&m-------------------------------------------------------"
+
+  # Mensagens de ajuda
+  help:
+    report: "&eUso correto: &6/report <jogador> <motivo>"
+    reports: "&eUso correto: &6/reports"
+
+  # Mensagens do Discord Embed
+  discord:
+    embed-reporter: "Reportado por"
+    embed-reported: "Jogador Reportado"
+    embed-reason: "Motivo"
+    embed-server: "Servidor"
+    embed-date: "Data"
+    embed-status: "Status" 

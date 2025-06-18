@@ -1,0 +1,75 @@
+# Configurações do Discord Bot
+discord:
+  # Token do seu bot do Discord
+  token: "COLOQUE_SEU_TOKEN_AQUI"
+  # ID do canal onde serão enviados os reports
+  channel-id: "COLOQUE_O_ID_DO_CANAL_AQUI"
+
+# Configurações do sistema
+settings:
+  # Cooldown entre reports (em segundos)
+  report-cooldown: 300
+  
+  # Número máximo de reports pendentes
+  max-pending-reports: 50
+  
+  # Autolimpar reports após tals dias
+  auto-clear-days: 7
+  
+  # Som ao receber report (NONE para desativar)
+  notification-sound: LEVEL_UP
+  
+  # Notificar staff online quando houver novo report
+  notify-staff: true
+
+# Configuração do embed do Discord
+embed:
+  title: "Novo Report"
+  color: "#FF0000"
+  thumbnail: "https://i.imgur.com/XwWQJqP.png"
+  footer: "Sistema de Reports • Minha bola"
+  timestamp: true
+
+# Campos do embed (true/false para mostrar ou não)
+fields:
+  reporter: true
+  reported: true
+  reason: true
+  server: true
+  date: true
+
+# Texturas das cabeças customizadas
+heads:
+  # Menu Principal
+  report-button: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjE5ZjdkNjM1ZGE1NDdhYjg0NDc5ODczNGNhZWE4NDAzZWE3ZjE1M2ZmOTRhOTNjMGNmYjM5YTBlYjk0ZiJ9fX0="
+  view-reports: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVkMWVjMmE0YTZlYjk0N2JmMzYwOWY4YjNmNmE3OTg5YzVkMGViNzY0MTljNGEwNDhjYTYxZjk3YmE5ZTZkIn19fQ=="
+  discord-settings: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg3M2MxMmJmZmI1MjUxYTBiODhkNWFlNzVjNzI0N2NiMzlhNzVmZjFhODFjYmU0YzhhMzliMzExZGRlZGEifX19"
+  back-button: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=="
+  
+  # Motivos de Report
+  reasons:
+    hack: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRmYzg5MzI4NjVmZDU3ZjNkN2FhZDhjYmFhNmM4NTJiZWY0YzU4YjFhNjQ3ZDQ3OTFhNjg5YWY0ZjViMCJ9fX0=" # Espada vermelha
+    ofensa: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg4N2NjMzg4YzhkY2ZjZjFiYThhYTVjM2Y5NGQ1NWZiYjk1NDZjNmZkZTIzZjIxYTY5OTY1ZDFiYjY4OWQifX19" # Balão de fala vermelho
+    spam: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkyZjA4YzEyOTQ4MjlkNDcyMmU5ZmE3ZjRkNzQ5YmQ0ZGYxZDJlZmJkYWM4ZGU3YjliYTI0ZTQ3MmY3Yzc4In19fQ==" # Papel com X vermelho
+    ameaca: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVmZWY2NjNkYjk5MDZhZDc1OGE0ZGYyYzU1YjJkNDgzNzIyOWY1NDNlMDhjZDhmYTRmYjQxNzFhNTc1NCJ9fX0=" # Caveira vermelha
+    toxico: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJkNDEwNGU3MjdmOWYzMzBjN2UzMTE2NmE5ODI5ZmY2M2Y5ZGQ4YzNiZjE3YjE5OWFiYmNiNDY2ZDM4OWY5In19fQ==" # Poção vermelha
+    bug: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5MWY1MTI2NmVkZGM2MjA3ZjEyYWU4ZDdhNDljNWRiMDQxNWFkYTA0ZGFiOTJiYjc2ODZhZmRiMTdmNGQ0In19fQ==" # Bug vermelho
+  
+  # Report List
+  report-icon: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE0Y2Q2ZTRhNDM1MzVmZGU5NTQ1YTgxYjY2YWMyOTY1ZmZkNjllOTY3YzU5MmY3OGRjMzY1NTRiZjk4YzQifX19"
+
+# Mensagens
+messages:
+  discord:
+    embed-reporter: "Reportado por"
+    embed-reported: "Jogador Reportado"
+    embed-reason: "Motivo"
+    embed-server: "Servidor"
+    embed-date: "Data"
+  
+  plugin:
+    report-cooldown: "Aguarde {time} segundos para reportar novamente."
+    no-permission: "Você não tem permissão para usar este comando."
+    player-not-found: "Jogador não encontrado."
+    report-yourself: "Você não pode reportar a si mesmo."
+    report-received: "Um novo report foi recebido! Use /reports para visualizar." 
